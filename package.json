@@ -1,0 +1,11 @@
+{
+  "name": "change_background_color",
+  "version": "1.0.0",
+  "description": "JS Beginners Project",
+  "main": "index.js",
+  "author": "Scott Bergler <commandinghands@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  }
+}
