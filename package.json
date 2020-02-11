@@ -5,7 +5,18 @@
   "main": "index.js",
   "author": "Scott Bergler <commandinghands@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "devDependencies": {
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.0",
     "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "@types/jest": "^25.1.2",
+    "@types/node": "^13.7.0",
+    "bootstrap": "^4.4.1"
+  },
+  "scripts": {
+    "test": "jest"
   }
 }
