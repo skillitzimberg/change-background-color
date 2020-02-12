@@ -1,3 +1,4 @@
+"use strict";
 var root = document.documentElement;
 var button = document.querySelector('button');
 if (button) {
