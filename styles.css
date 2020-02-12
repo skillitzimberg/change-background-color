@@ -1,0 +1,32 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: auto;
+}
+
+:root {
+  --bg-color: #495935;
+}
+
+.bg-color {
+  background-color: var(--bg-color);
+}
+
+section {
+  width: 50%;
+  margin: auto;
+}
+
+button {
+  display: block;
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 40vw;
+  height: 20vh;
+  margin: 40vh auto;
+  background-color: transparent;
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
