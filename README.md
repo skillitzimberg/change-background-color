@@ -2,7 +2,7 @@
 
 ### Purpose
 
-To understand what adding a package does to a very simple app.  
+To understand the line between an extremely simple app and.  
 To practice setting up an environment for TypeScript
 To practice setting up an environment for TypeScript & Jest
 To practice testing: what, why, how?
@@ -13,10 +13,5 @@ Additional branches will progressively add TypeScript and Jest.
 
 ### WHAT I LEARNED OR WAS REMINDED OF BUILDING THIS VERSION
 
-- Make sure you link your stylesheet in the html head. :)
-- I learned about CSS variables. I hadn't used them before.
-- I was reminded to double check your stylesheet for conflicting rules.
-- I learned that `vh` & `vw` are better than using `%` for responsive design.
-- I learned about the `String.replace()` method.
-- I learned how to generate a random hexadecimal number.
-- I learned that it's possible to use CSS variables to programmatically change a value in the stylesheet.
+- I have TypeScript installed globally which allows me to use the `.ts` file extension and compile them to JavaScript by running `tsc scripts.ts`, creating a `scripts.js` file. Previously I thought that I had to use `yarn add --dev typescript`, creating `package.json` & `yarn.lock` files, and the `node_mdules` directory, as well as possibly needing a `tsconfig.json` file set up.
+- With TypeScript installed globally I can still use the `tsc -w` command, though I do need to add the file name to the command: `tsc -w scripts.ts`. Fancy. Again, because other projects with TS have started out at a higher complexity (tutorials going straight into creating modules or build Angular apps), I hadn't experienced this fundamental level.
