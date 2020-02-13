@@ -21,12 +21,14 @@ With the TypeScript compiler working from the global installation (it's installe
 
 - Client-side JavaScript that runs in the browser uses another standard, called ES Modules. This is where the syntax `import someVar from 'someModuleOrFile'` comes from.
 
-- I already have Jest installed globally. Using CommonJS modules and NOT using TypeScript setting up Jest was relatively easy. I did have to make a `jest.config.js` file in order for Jest to run the test. It doesn't matter what's in it. It can even be empty. It just needs to be there.
+- I already have Jest installed globally. Using CommonJS modules and NOT using TypeScript, setting up Jest was relatively easy. I did have to make a `jest.config.js` file in order for Jest to run the test. It doesn't matter what's in it. It can even be empty. It just needs to be there.
   This is the error it returns without some sort of Jest-centric config file:
 
 ```
 Config paths must be specified by either a direct path to a config file, or a path to a directory. If directory is given, Jest will try to traverse directory tree up, until it finds one of those files in exact order: "jest.config.js" or "jest.config.mjs" or "jest.config.cjs" or "jest.config.json".
 ```
+
+**NOTE:** At this point the Jest test file is `jest.test.js`, not `jest.test.ts`. In order to use TypeScript in our tests I'll need to give TypeScript a way to 'understand' Jest's type definitions.
 
 ### NODE & COMMONJS MODULES
 
