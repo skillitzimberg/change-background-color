@@ -29,6 +29,9 @@ Config paths must be specified by either a direct path to a config file, or a pa
 ```
 
 **NOTE:** At this point the Jest test file is `jest.test.js`, not `jest.test.ts`. In order to use TypeScript in our tests I'll need to give TypeScript a way to 'understand' Jest's type definitions.
+This is the point where we cross into having to initialize the project with NPM and start installing packages locally (in the project), specifically `@types/node` & `@types/jest`.
+This is interesting. CommonJS module and Jest syntaxes worked in a `.js` file. Having changed the test file extension to `.ts` I get errors for `require()` (CommonJS) and `describe()` & `test()`.
+This is why I like strongly typed languages. I could write anything in a `.js` file and would know about a problem until I tried to run it at which point the JavaScript engine (V8 in both Chrome & Node) tries to compile it and finds the problem.
 
 ### NODE & COMMONJS MODULES
 
