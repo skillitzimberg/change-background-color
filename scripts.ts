@@ -14,3 +14,9 @@ function handleClick(): void {
     root.style.setProperty('--bg-color', color);
   }
 }
+const sum = (a: number, b: number) => {
+  return a + b;
+};
+
+// ES2015 (ES6) Module export syntax is transpiled to CommonJS (NodeJS) export syntax
+export { sum, root, handleClick };
