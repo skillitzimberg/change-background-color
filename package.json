@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "serve": "node server.js"
   },
   "devDependencies": {
     "@types/jest": "^25.1.2",
