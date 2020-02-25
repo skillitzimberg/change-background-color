@@ -1,6 +1,13 @@
 # JS BEGINNERS PROJECT: Change the Background Color
 
-You can push the button on the AWS S3 hosted site: [Change Background Color "App"](http://scotts3labbucket.s3-website-us-west-2.amazonaws.com)
+You can push the button on the AWS S3 hosted site: [Change Background Color "App"](http://scotts3labbucket.s3-website-us-west-2.amazonaws.com).
+
+To run locally:  
+Clone the repo.  
+Run `yarn install`.  
+Run `tsc`.  
+Run `yarn serve`.
+Push the buttons at [`http://127.0.0.1:8125/`](http://127.0.0.1:8125/).
 
 ### Purpose
 
