@@ -1,5 +1,7 @@
 # JS BEGINNERS PROJECT: Change the Background Color
 
+## Making A Meal Out Of A Morsel.
+
 You can push the button on the AWS S3 hosted site: [Change Background Color "App"](http://scotts3labbucket.s3-website-us-west-2.amazonaws.com).
 
 To run locally:  
@@ -10,6 +12,14 @@ Run `yarn serve`.
 Push the buttons at [`http://127.0.0.1:8125/`](http://127.0.0.1:8125/).
 
 ### Purpose
+
+**NOTE:** This project is a work in progress. It is not about the "app" itself, but about the exploration of the JavaScript ecosystem for my own understanding. There will a series of Dev.To articles/tutorials as well.
+
+I have found that a lot of things are said in tutorials as a beginners starts learning how to code. Things are stated breezily and quickly with no real explanations. Simple is confused with easy. The author's easy is mistaken for the reader's easy. For the way that I personally learn, I find this to be a stumbling block.
+
+This project is my attempt go back to the fundamentals, to "make a meal out of a morsel" by creating an extremely basic JavaScript app, describing it's inner workings as thoroughly as I can, then adding TypeScript and describing how that affects the project, then adding Jest and doing the same.
+
+I'm learning a ton about Node, modules, testing, and local and global environments. I hope to be able to help other learners with this project.
 
 To practice fundamentals.  
 To practice setting up an environment for TypeScript.  
