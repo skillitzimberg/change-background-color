@@ -27,9 +27,11 @@ To practice setting up an environment for TypeScript & Jest.
 To practice testing: what, why, how?
 To understand Node, CommonJS modules, ES Modules
 
-The `master` branch is a solution to the given problem.
+The `base_project` branch is a solution to the given problem.
 
 Additional branches will progressively add TypeScript and Jest.
+
+As of this commit `master` is up to date with the `add_jest` branch as I wanted to have a general scope available to visitors, something closer to the end goal. Each branch will be expanded upon (mostly in the README and dev.to articles being added).
 
 ## CURRENT GOAL
 
